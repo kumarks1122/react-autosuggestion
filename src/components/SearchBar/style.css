@@ -1,0 +1,93 @@
+.noCursor {
+  cursor: none
+}
+
+.Search-Input-Container {
+  margin: 30px;
+  position: relative;
+  display: inline-block;
+  box-shadow: 4px 2px 6px #c3c3c3;
+  border-radius: 4px;
+}
+
+.Search-Input-field {
+  padding: 10px;
+  border-radius: 3px;
+  border-style:none;
+  outline:none !important;
+  border: 1px solid #eee;
+}
+
+.Result-Container {
+  max-height: 350px;
+  width: 273px;
+  overflow-x: auto;
+}
+
+.Result-Container::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+.Result-Container::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+.Result-Container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear,
+                     left bottom,
+                     left top,
+                     color-stop(0.44, rgb(122,153,217)),
+                     color-stop(0.72, rgb(73,125,189)),
+                     color-stop(0.86, rgb(28,58,148)));
+}
+
+.Search-Input-field {
+  width: 250px;
+}
+
+.Result-Card {
+  border-bottom: 1px solid #aaa;
+  padding: 10px;
+}
+
+.Result-Card.active-card {
+  background-color: #eee;
+}
+
+.Result-Card div {
+  padding: 7px;
+}
+.Result-Card .userid {
+  font-size: 16px;
+  color: #111;
+}
+
+.Result-Card .username{
+  color: #464646;
+  font-size: 14px;
+  padding: 7px;
+}
+
+.Result-Card .itempresent {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 7px;
+  font-size: 12px;
+}
+
+.Result-Card .address {
+  white-space: nowrap; 
+  width: 200px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #999; 
+}
+
+.No-Result-Card {
+  text-align: center;
+  padding: 33px 0px;
+}
